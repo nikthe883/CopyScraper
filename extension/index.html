@@ -1,0 +1,206 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <h1>CopySc</h1>
+        <button id="fillForm" class="button">Paste</button>
+        <button id="scraper" class="button">Copy</button>
+        <button class="show-options-btn">Options</button>
+        
+        <div class="parent show-options" >
+          <div class="child child-options">
+              <label class="container">Brand
+                <input type="checkbox" id="brand-el" checked="checked">
+                <span class="checkmark"></span>
+              </label>
+
+              <label class="container" >Name
+                <input type="checkbox" id="name-el" checked="checked">
+                <span class="checkmark"></span>
+              </label>
+              
+              <label class="container" >Id
+                <input type="checkbox" id="id-el" checked="checked">
+                <span class="checkmark"></span>
+              </label>
+              
+              <label class="container" >URL
+                <input type="checkbox" id="url-el" checked="checked">
+                <span class="checkmark"></span>
+              </label>
+              
+              <label class="container" >Price
+                <input type="checkbox" id="price-el" checked="checked">
+                <span class="checkmark"></span>
+              </label>
+          </div>   
+          <div class="child child-options" style="overflow-y:scroll; height: 120; overflow-x: hidden;"> 
+              <label class="container-radio">Amazon
+                <input type="radio" id="amazon-el" class="radio-el" name="radio" value="amazon">
+                <span class="checkmark-radio"></span>
+              </label>
+
+              <label class="container-radio">Zalando
+                <input type="radio" id="zalando-el" class="radio-el" name="radio" value="zalando">
+                <span class="checkmark-radio"></span>
+              </label>
+
+              <label class="container-radio">Obelink
+                <input type="radio" id="obelnik-el" class="radio-el" name="radio" value="obelnik">
+                <span class="checkmark-radio"></span>
+              </label>
+              
+              <label class="container-radio">Kaufland
+                <input type="radio" id= "kaufland-el"  class="radio-el" name="radio" value="kaufland">
+                <span class="checkmark-radio"></span>
+              </label>
+
+              <label class="container-radio">fight4
+                <input type="radio" id= "fight4less-el"  class="radio-el" name="radio" value="fight4">
+                <span class="checkmark-radio"></span>
+              </label>
+              <label class="container-radio">Zweirad
+                <input type="radio" id= "zweirad-el"  class="radio-el" name="radio" value="zweirad">
+                <span class="checkmark-radio"></span>
+              </label>
+              <label class="container-radio">Hm
+                <input type="radio" id= "hm-el"  class="radio-el" name="radio" value="hm"> 
+                <span class="checkmark-radio"></span>
+              </label>
+              <label class="container-radio">Tchibo
+                <input type="radio" id= "tchibo-el2"  class="radio-el" name="radio" value="tchibo">
+                <span class="checkmark-radio"></span>
+              </label>
+              <label class="container-radio">Bike24
+                <input type="radio" id= "bike24-el"  class="radio-el" name="radio" value="bike24">
+                <span class="checkmark-radio"></span>
+              </label>
+              <label class="container-radio">Rosebik
+                <input type="radio" id= "rosebikes-el"  class="radio-el" name="radio" value="rosebikes">
+                <span class="checkmark-radio"></span>
+              </label>
+              <label class="container-radio">shp4run
+                <input type="radio" id= "shop4run-el"  class="radio-el" name="radio" value="shop4run">
+                <span class="checkmark-radio"></span>
+              </label>
+              <label class="container-radio">intsp
+                <input type="radio" id= "intsp-el"  class="radio-el" name="radio" value="intsp">
+                <span class="checkmark-radio"></span>
+              </label>
+              <label class="container-radio">sprchk
+                <input type="radio" id= "sprchk-el"  class="radio-el" name="radio" value="sprchk">
+                <span class="checkmark-radio"></span>
+              </label>
+              <label class="container-radio">bltoma
+                <input type="radio" id= "bltoma-el"  class="radio-el" name="radio" value="bltoma">
+                <span class="checkmark-radio"></span>
+              </label>
+              <label class="container-radio">prswiw
+                <input type="radio" id= "prswiw-el"  class="radio-el" name="radio" value="prswiw">
+                <span class="checkmark-radio"></span>
+              </label>
+              <label class="container-radio">bergz
+                <input type="radio" id= "bergz-el"  class="radio-el" name="radio" value="bergz">
+                <span class="checkmark-radio"></span>
+              </label>
+              <label class="container-radio">staples
+                <input type="radio" id= "staples-el"  class="radio-el" name="radio" value="staples">
+                <span class="checkmark-radio"></span>
+              </label>
+              <label class="container-radio">ryman
+                <input type="radio" id= "ryman-el"  class="radio-el" name="radio" value="ryman">
+                <span class="checkmark-radio"></span>
+              </label>
+              <label class="container-radio">sainsbur
+                <input type="radio" id= "sainsbur-el"  class="radio-el" name="radio" value="sainsbur">
+                <span class="checkmark-radio"></span>
+              </label>
+              <label class="container-radio">tractor
+                <input type="radio" id= "tractor-el"  class="radio-el" name="radio" value="tractor">
+                <span class="checkmark-radio"></span>
+              </label>
+              <label class="container-radio">lowes
+                <input type="radio" id= "lowes-el"  class="radio-el" name="radio" value="lowes">
+                <span class="checkmark-radio"></span>
+              </label>
+              <label class="container-radio">1stopl
+                <input type="radio" id= "1stopl-el"  class="radio-el" name="radio" value="1stopl">
+                <span class="checkmark-radio"></span>
+              </label>
+              <label class="container-radio">kwik
+                <input type="radio" id= "kwik-el"  class="radio-el" name="radio" value="kwik">
+                <span class="checkmark-radio"></span>
+              </label>
+              <label class="container-radio">atamster
+                <input type="radio" id= "atamster-el"  class="radio-el" name="radio" value="atamster">
+                <span class="checkmark-radio"></span>
+              </label>
+              <label class="container-radio">kamrx
+                <input type="radio" id= "kameraex-el"  class="radio-el" name="radio" value="kameraex">
+                <span class="checkmark-radio"></span>
+              </label>
+              <label class="container-radio">compas
+                <input type="radio" id= "compas-el"  class="radio-el" name="radio" value="compas">
+                <span class="checkmark-radio"></span>
+              </label>
+              <label class="container-radio">mtyres
+                <input type="radio" id= "mtyres-el"  class="radio-el" name="radio" value="mtyres">
+                <span class="checkmark-radio"></span>
+              </label>
+              <label class="container-radio">tlead
+                <input type="radio" id= "tlead-el"  class="radio-el" name="radio" value="tlead">
+                <span class="checkmark-radio"></span>
+              </label>
+<<<<<<< HEAD
+              <label class="container-radio">pass
+=======
+              <label class="container-radio">boots
+>>>>>>> 42bbf578fb69b96a69bd5a512877f31908285843
+                <input type="radio" id= "boots-el"  class="radio-el" name="radio" value="boots">
+                <span class="checkmark-radio"></span>
+              </label>
+              <label class="container-radio">tshop
+                <input type="radio" id= "tshop-el"  class="radio-el" name="radio" value="tshop">
+                <span class="checkmark-radio"></span>
+              </label>
+<<<<<<< HEAD
+              <label class="container-radio">halfords
+                <input type="radio" id= "halfords-el"  class="radio-el" name="radio" value="halfords">
+                <span class="checkmark-radio"></span>
+              </label>
+              <label class="container-radio">f1auto
+                <input type="radio" id= "f1auto-el"  class="radio-el" name="radio" value="f1auto">
+                <span class="checkmark-radio"></span>
+              </label>
+              <label class="container-radio">dec
+                <input type="radio" id= "dec-el"  class="radio-el" name="radio" value="dec">
+                <span class="checkmark-radio"></span>
+              </label>
+              <label class="container-radio">booots
+                <input type="radio" id= "booots-el"  class="radio-el" name="radio" value="booots">
+                <span class="checkmark-radio"></span>
+              </label>
+              <label class="container-radio">booots1
+                <input type="radio" id= "booots1-el"  class="radio-el" name="radio" value="booots1">
+                <span class="checkmark-radio"></span>
+              </label>
+              <label class="container-radio">sportler
+                <input type="radio" id= "sportler-el"  class="radio-el" name="radio" value="sportler">
+                <span class="checkmark-radio"></span>
+              </label>
+=======
+
+>>>>>>> 42bbf578fb69b96a69bd5a512877f31908285843
+
+            </div>
+
+            <button id="save-el" class="button">Save</button>
+        </div>
+        
+    </body>
+        
+        <script src="action.js"></script>
+    </body>
+</html>

@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "CopySc",
+    "description": "scrape and fill forms",
+    "homepage_url": "https://www.facebook.com/",
+    "version": "1.0",
+    "browser_action": {
+        "default_title": "Click me",
+        "default_popup": "index.html"
+    
+    },
+    "permissions": [
+        "tabs",
+        "http://*/*",
+        "https://*/*",
+        "storage"
+    ]
+}
