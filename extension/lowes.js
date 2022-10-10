@@ -5,14 +5,14 @@ if (nameValue){
     var productName = document.querySelector("h1").innerText;
     }
     
-    console.log(productName)
+    
     // gets brand
 if (brandValue){
     var brandName = productName.split(" ")[0];
 
 }
     
-    console.log(brandName)
+  
 
     //gets price 
     if (priceValue){
@@ -27,7 +27,7 @@ if (brandValue){
 
         
      }
-    console.log(productPrice)
+
    
 
 
@@ -39,8 +39,8 @@ if (brandValue){
     
     //gets id
     if (idValue){
-        var productId = document.getElementsByClassName('GridStyles__GridRow-sc-1ejksnu-1 qwBjG row LPD__RowWrapper-PDP__sc-1t7701v-1 eaXfme modelNo')[0].innerText
-        productId = productId.split("SKU: ")[1]
+        var productId = document.getElementsByClassName('styles__ParagraphRegular-sc-1ljw3tp-0 eCVRrO typography variant--body_small align--left small')
+        productId = productId[0].textContent.split("Item #")[1]
         
         
         
@@ -51,4 +51,4 @@ if (brandValue){
     // stores details to chrome storage 
     chrome.storage.local.set({'scraped': details}, function() {
         console.log('Details saved',details);
-      });s
+      });
