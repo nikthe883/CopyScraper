@@ -26,6 +26,8 @@ At the moment the app is in development stage and only tested with Chrome versio
 ![Capture1 (2)](https://github.com/nikthe883/CopyScraper/assets/82037390/59f0275f-ccdb-4615-b488-60485ccb61e2)
 
 <br>
+<hr>
+<br>
 
 ![Capture](https://github.com/nikthe883/CopyScraper/assets/82037390/532f087c-fb1a-4bca-8295-319a10ef1fd5)
 
